@@ -12,7 +12,7 @@ const Weather = (props) => {
     const [isImperial, setisImperial] = useState(false);
 
     return (
-        <div class="weather-container" key={props.name}>
+        <div class="weather-container">
             <div>
                 <table className="weather-table">
                     <tr>
